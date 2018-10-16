@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
-
+import Map from './components/Map';
+import NewOffer from './components/NewOffer';
 
 class App extends Component {
+  state = {
+    offers: []
+  }
+  
   render() {
-    return null;
+    return (
+      <div>
+        <Map />
+        <NewOffer />
+      </div>
+    );
   }
 }
 
