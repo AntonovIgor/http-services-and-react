@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.5">
+	<ConfigVersions>
+		<Metadata name="Catalog.ОбъектыНедвижимости" id="24dcee67-2290-4b55-a36f-af1fd22da65a" configVersion="c6f9496bda75d546bcd19af01602634400000000">
+			<Metadata name="Catalog.ОбъектыНедвижимости.TabularSection.ВидыУдобств.Attribute.Опция" id="3ca138b3-7e23-40dd-8579-d145e9a139b5"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.КоличествоКомнат" id="592ec8cf-1b4a-4c3f-b9e7-1c4e39d36b36"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.Описание" id="7eb14d83-7ed4-4e07-a48a-7548d0d5330b"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.КоличествоМест" id="8055d3c9-e04e-46ae-827d-76148ac8f500"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.ПутьКАватарке" id="897e1147-bba0-47ad-bba6-ec0eb01d32bc"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.ЦенаЗаНочь" id="9799ad61-9be5-4d45-804a-5c32193bf9eb"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.ВидЖилья" id="a5bcead0-c8a4-428b-a206-f00f667abc21"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.ВремяВыезда" id="b3c9fdd3-2d6e-4b29-92da-55ffa82cf16b"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.ВремяЗаезда" id="b9b88537-2e28-47a4-902d-06e864065cac"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.КоординатаУ" id="ca6f8885-128f-4fe6-9a52-9d86e92305c5"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.TabularSection.ВидыУдобств" id="cc83ab3d-c5e4-421f-9435-f745d7b18d96"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.КоординатаХ" id="ce6505be-0af0-4077-bf44-bf12e0ceaaf4"/>
+			<Metadata name="Catalog.ОбъектыНедвижимости.Attribute.Адрес" id="dc51226b-68db-46b4-8ef9-50775444d18d"/>
+		</Metadata>
+		<Metadata name="Catalog.ОбъектыНедвижимости.Form.ФормаСписка" id="29a1520b-017b-46cf-a740-c6eba35369cb" configVersion="f51eef24e06afc45af427bd60ae6709000000000"/>
+		<Metadata name="Catalog.ОбъектыНедвижимости.Form.ФормаСписка.Form" id="29a1520b-017b-46cf-a740-c6eba35369cb.0" configVersion="3903042ff1d2a94ea25e711a80481d7e00000000"/>
+		<Metadata name="Catalog.ОбъектыНедвижимости.Form.ФормаЭлемента" id="c490a5bb-2d24-4ec5-988f-a3c5b180436e" configVersion="71128be499f5e1498e87cce250f53acb00000000"/>
+		<Metadata name="Catalog.ОбъектыНедвижимости.Form.ФормаЭлемента.Form" id="c490a5bb-2d24-4ec5-988f-a3c5b180436e.0" configVersion="3c6fc1a360e6854191436c17e372136500000000"/>
+		<Metadata name="Catalog.ОбъектыНедвижимости.ManagerModule" id="24dcee67-2290-4b55-a36f-af1fd22da65a.3" configVersion="444fc32c482a0f4a9f253842f012456900000000"/>
+		<Metadata name="CommonModule.Конверторы" id="fa718f91-d374-4cc1-a93b-ac3c49914825" configVersion="9018fc83a4afae47bbe75b07043c192200000000"/>
+		<Metadata name="CommonModule.Конверторы.Module" id="fa718f91-d374-4cc1-a93b-ac3c49914825.0" configVersion="2d98f222999dc24ebf2b8ce1bde10eb800000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="a9b39834-f74a-4fe7-a25b-df7f840fdaed" configVersion="feb0446dd1cea0429c7c5a1ff59d70f700000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="a9b39834-f74a-4fe7-a25b-df7f840fdaed.0" configVersion="8ef4a34e07b03240be43e6edfcca5e3000000000"/>
+		<Metadata name="CommonModule.СервисОбъектыНедвижимости" id="a609147b-af72-48e2-b126-50793a3a6669" configVersion="616f474f997ffc41891ddf37fa09bdfc00000000"/>
+		<Metadata name="CommonModule.СервисОбъектыНедвижимости.Module" id="a609147b-af72-48e2-b126-50793a3a6669.0" configVersion="9e412d6457dc4a42a4bb17dd61959db200000000"/>
+		<Metadata name="CommonModule.Сервисы" id="4381ebc4-c6b5-4bcf-b96a-514233415584" configVersion="82d1cedb58b5dd4389ced046e8c4996c00000000"/>
+		<Metadata name="CommonModule.Сервисы.Module" id="4381ebc4-c6b5-4bcf-b96a-514233415584.0" configVersion="32d5b9994773b845be09b922be9ea0fc00000000"/>
+		<Metadata name="CommonPicture.ОбъектНедвижимости" id="69785c11-68b3-4929-803d-24a864d2a675" configVersion="80cce59e4b1e8a4186e92cf8acc6d62600000000"/>
+		<Metadata name="CommonPicture.ОбъектНедвижимости.Picture" id="69785c11-68b3-4929-803d-24a864d2a675.0" configVersion="baf2dc15fc21cc489a036204766dceb800000000"/>
+		<Metadata name="Configuration.Keksobooking" id="46c0aef3-2631-41b1-bcda-eb1f64f8d8b3" configVersion="eaebe591006d174a9fac774d6324c38b00000000"/>
+		<Metadata name="Configuration.Keksobooking.ClientApplicationInterface" id="2d8b3cbd-f29f-4b78-967b-a94221d9ce24.b" configVersion="0203ba9268830c46a351e6c8b4a6bd5100000000"/>
+		<Metadata name="Configuration.Keksobooking.HomePageWorkArea" id="2d8b3cbd-f29f-4b78-967b-a94221d9ce24.8" configVersion="1bd0f6788a55a34481186d9c3e21a86d00000000"/>
+		<Metadata name="Configuration.Keksobooking.MainSectionPicture" id="2d8b3cbd-f29f-4b78-967b-a94221d9ce24.c" configVersion="65b9a5380992b441a1642aa83c2a4e3e00000000"/>
+		<Metadata name="Enum.ВидыЖилья" id="950f3a54-1c0c-4754-a033-03863f9b32fd" configVersion="188fb0d9c54fc4488e9896e37716cecc00000000">
+			<Metadata name="Enum.ВидыЖилья.EnumValue.Лачуга" id="18ed33b7-a89e-457e-94eb-7b3fdae8a02d"/>
+			<Metadata name="Enum.ВидыЖилья.EnumValue.Дом" id="6cd8b5ff-6e85-45fe-b6b4-8a1a198cf167"/>
+			<Metadata name="Enum.ВидыЖилья.EnumValue.Квартира" id="cba1527c-634d-444b-bac1-b4b66fed0810"/>
+			<Metadata name="Enum.ВидыЖилья.EnumValue.Дворец" id="e287d994-3f24-45ab-a794-a3568783a0e9"/>
+		</Metadata>
+		<Metadata name="Enum.ВидыУдобств" id="dc5b0f21-1db2-4b95-8576-3e59657d25e3" configVersion="4757eb1d976be34784c5a0f5a356d59f00000000">
+			<Metadata name="Enum.ВидыУдобств.EnumValue.Кухня" id="06e1480e-306b-464f-ab86-8d0625c65ec3"/>
+			<Metadata name="Enum.ВидыУдобств.EnumValue.Парковка" id="47c268f3-c5c9-484c-a9cb-0cae5a008a08"/>
+			<Metadata name="Enum.ВидыУдобств.EnumValue.Кондиционер" id="7b38e46b-b49d-4ef0-873b-073814e27117"/>
+			<Metadata name="Enum.ВидыУдобств.EnumValue.Лифт" id="81d8aef1-3a78-44b7-8fb2-52efe4961aa0"/>
+			<Metadata name="Enum.ВидыУдобств.EnumValue.WiFi" id="9d0fd38b-d69b-4c2a-858f-876a81718426"/>
+			<Metadata name="Enum.ВидыУдобств.EnumValue.Стиралка" id="f2663b31-fd9c-4201-8df0-e290d626c267"/>
+		</Metadata>
+		<Metadata name="Enum.ВремяВыезда" id="df6898d0-4cf0-461a-acfc-5f1cb7e63773" configVersion="b458dfd99eeffe48989de840be1b0fd400000000">
+			<Metadata name="Enum.ВремяВыезда.EnumValue.ВыездДо12" id="17e0d14e-5b71-45cc-b687-6e853959f543"/>
+			<Metadata name="Enum.ВремяВыезда.EnumValue.ВыездДо13" id="649e3c9e-be71-44d9-8c39-eb16c5726293"/>
+			<Metadata name="Enum.ВремяВыезда.EnumValue.ВыездДо14" id="a0792e5b-596b-4c5b-aa7b-3b1e7141c2d3"/>
+		</Metadata>
+		<Metadata name="Enum.ВремяЗаезда" id="120d0716-4e0e-4d7c-9364-ea50f5f2453b" configVersion="9dd8a2473c25d142b44453c30239487800000000">
+			<Metadata name="Enum.ВремяЗаезда.EnumValue.После13" id="63fba7e0-c50b-434e-8ef8-f7278ed00a98"/>
+			<Metadata name="Enum.ВремяЗаезда.EnumValue.После14" id="80952eb4-eec9-4e5a-82e9-84ba8e85dbe7"/>
+			<Metadata name="Enum.ВремяЗаезда.EnumValue.После12" id="89961c2c-6f82-4ad6-b39e-e3347712a39e"/>
+		</Metadata>
+		<Metadata name="Enum.КоличествоКомнат" id="bb562033-b355-457a-86ab-ac14d54c04fe" configVersion="c30d1a50898858479a0239d109196d1800000000">
+			<Metadata name="Enum.КоличествоКомнат.EnumValue.ТриКоманты" id="08d7b2ab-795e-4acf-aea6-3ca4c5b2d4f6"/>
+			<Metadata name="Enum.КоличествоКомнат.EnumValue.ДвеКомнаты" id="2f8f6443-955e-49a1-a418-92d251ec76e3"/>
+			<Metadata name="Enum.КоличествоКомнат.EnumValue.ОднаКомната" id="9ecb1c5e-bc11-4ada-a02b-c137f1ca4a88"/>
+			<Metadata name="Enum.КоличествоКомнат.EnumValue.СтоКомнат" id="d75e3077-9875-438a-bf57-906f32df11e1"/>
+		</Metadata>
+		<Metadata name="Enum.КоличествоМест" id="1ea3f6d9-28ac-40eb-bf09-5ace755a82ec" configVersion="7918bd30554e7343a550b8d2fd643eb600000000">
+			<Metadata name="Enum.КоличествоМест.EnumValue.ДляТрехГостей" id="117a1e30-acab-4b46-a1b2-5548921d64be"/>
+			<Metadata name="Enum.КоличествоМест.EnumValue.ДляОдногоГостя" id="4bf9469b-d925-473a-a55a-db22a7376f7a"/>
+			<Metadata name="Enum.КоличествоМест.EnumValue.НеДляГостей" id="a507b41d-1448-43e6-8e86-7b11fb11c007"/>
+			<Metadata name="Enum.КоличествоМест.EnumValue.ДляДвухГостей" id="a8c7ff13-de5d-4835-9692-b2cdd82f2ebb"/>
+		</Metadata>
+		<Metadata name="HTTPService.ОбъектыНедвижимости" id="4720586e-f1b3-440d-825b-c42dcb4b64e9" configVersion="95fc497d53b17b4ca5f1802ca3449d5400000000">
+			<Metadata name="HTTPService.ОбъектыНедвижимости.URLTemplate.СписокПредложений.Method.Получить" id="62e0663a-33e1-40b0-af1d-9207c465ab68"/>
+			<Metadata name="HTTPService.ОбъектыНедвижимости.URLTemplate.СписокПредложений" id="686bea03-fb00-4499-9cd3-647e7053dbc5"/>
+			<Metadata name="HTTPService.ОбъектыНедвижимости.URLTemplate.СписокПредложений.Method.Добавить" id="73a1b28b-3d9a-48b3-ac6a-e2a01493e384"/>
+		</Metadata>
+		<Metadata name="HTTPService.ОбъектыНедвижимости.Module" id="4720586e-f1b3-440d-825b-c42dcb4b64e9.0" configVersion="a3a43e78923d5c4a83417a4beccba0e500000000"/>
+		<Metadata name="Language.Русский" id="03b35392-5edf-4dbe-ab84-fa348ffd5406" configVersion="42e1c73cc47a2e479830991702118fa900000000"/>
+		<Metadata name="Role.Администратор" id="44296312-23ab-4165-b0a8-22ce9dd56e53" configVersion="d0b8d27a88c39649ac1fa56668847e6600000000"/>
+		<Metadata name="Role.Администратор.Rights" id="44296312-23ab-4165-b0a8-22ce9dd56e53.0" configVersion="9e05461ab9cb6f4e9d3fb1ac6100f3ae00000000"/>
+		<Metadata name="Subsystem.ОбъектыНедвижимости" id="47676081-a5ad-43b3-ba5b-84699621bfdd" configVersion="2e20f366d7593841bfeb00eeff6683ca00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
