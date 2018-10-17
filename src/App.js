@@ -38,7 +38,7 @@ class App extends Component {
           onPinClick={this.onPinClick}
         />
         <Card {...this.state.card} onCloseCard={this.onCloseCard} />
-        <NewOffer />
+        <NewOffer isActive={this.state.isActive} />
       </div>
     );
   }

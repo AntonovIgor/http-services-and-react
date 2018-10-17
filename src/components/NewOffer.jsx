@@ -1,11 +1,12 @@
 import React from 'react';
+import cn from 'classnames';
 
 export default class NewOffer extends React.Component {
     render() {
         return (
             <section className="notice">
                 <h2 className="notice__title">Ваше объявление</h2>
-                <form className="ad-form ad-form--disabled" method="post" encType="multipart/form-data" autoComplete="off">
+                <form className={cn('ad-form', {'ad-form--disabled': !this.props.isActive})} method="post" encType="multipart/form-data" autoComplete="off">
                 <fieldset className="ad-form-header">
                     <legend className="ad-form-header__title">Ваша фотография (для карты)</legend>
                     <div className="ad-form-header__upload">
