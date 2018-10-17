@@ -4,7 +4,7 @@ export default class Filters extends React.Component {
     render() {
         return (
             <div className="map__filters-container">
-                <form action="#" class="map__filters" autocomplete="off">
+                <form action="#" className="map__filters" autoComplete="off">
                     <select name="housing-type" id="housing-type" className="map__filter">
                         <option value="any" selected>Любой тип жилья</option>
                         <option value="palace">Дворец</option>
@@ -32,17 +32,17 @@ export default class Filters extends React.Component {
                     </select>
                     <fieldset id="housing-features" className="map__features">
                         <input type="checkbox" name="features" value="wifi" id="filter-wifi" className="map__checkbox visually-hidden" />
-                        <label className="map__feature map__feature--wifi" for="filter-wifi">Wi-Fi</label>
+                        <label className="map__feature map__feature--wifi" htmlFor="filter-wifi">Wi-Fi</label>
                         <input type="checkbox" name="features" value="dishwasher" id="filter-dishwasher" className="map__checkbox visually-hidden" />
-                        <label className="map__feature map__feature--dishwasher" for="filter-dishwasher">Посудомоечная машина</label>
+                        <label className="map__feature map__feature--dishwasher" htmlFor="filter-dishwasher">Посудомоечная машина</label>
                         <input type="checkbox" name="features" value="parking" id="filter-parking" className="map__checkbox visually-hidden" />
-                        <label className="map__feature map__feature--parking" for="filter-parking">Парковка</label>
+                        <label className="map__feature map__feature--parking" htmlFor="filter-parking">Парковка</label>
                         <input type="checkbox" name="features" value="washer" id="filter-washer" className="map__checkbox visually-hidden" />
-                        <label className="map__feature map__feature--washer" for="filter-washer">Стиральная машина</label>
+                        <label className="map__feature map__feature--washer" htmlFor="filter-washer">Стиральная машина</label>
                         <input type="checkbox" name="features" value="elevator" id="filter-elevator" className="map__checkbox visually-hidden" />
-                        <label className="map__feature map__feature--elevator" for="filter-elevator">Лифт</label>
+                        <label className="map__feature map__feature--elevator" htmlFor="filter-elevator">Лифт</label>
                         <input type="checkbox" name="features" value="conditioner" id="filter-conditioner" className="map__checkbox visually-hidden" />
-                        <label className="map__feature map__feature--conditioner" for="filter-conditioner">Кондиционер</label>
+                        <label className="map__feature map__feature--conditioner" htmlFor="filter-conditioner">Кондиционер</label>
                     </fieldset>
                 </form>
             </div>
