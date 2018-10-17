@@ -27,7 +27,11 @@ export default class Map extends React.Component {
                         </text>
                     </svg>
                 </button>
-                {this.props.offers.map(item => <Pin key={item.id} {...item} isActive={this.props.isActive} />)}
+                {this.props.offers.map(item => 
+                    <Pin key={item.id} {...item} 
+                        isActive={this.props.isActive} 
+                        onPinClick={this.props.onPinClick} 
+                    />)}
             </div>
 
       
