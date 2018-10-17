@@ -2,16 +2,16 @@ import React from 'react';
 
 export default class Pin extends React.Component {
     render() {
-        return (
+        return ( !this.props.isActive ? null :
             <button 
                 type="button"
                 className="map__pin" 
-                style={ {left: "200px", top: "400px" }}>
-                    <img src="img/avatars/user07.png" 
+                style={ {left: `${this.props.location.x}px`, top: `${this.props.location.y}px` }}>
+                    <img src={this.props.author.avatar} 
                         width="40" 
                         height="40" 
                         draggable="false"
-                        alt="Метка объявления" />
+                        alt={this.props.offer.title} />
             </button>
         );
     }

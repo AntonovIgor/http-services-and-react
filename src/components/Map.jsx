@@ -1,6 +1,7 @@
 import React from 'react';
 import Filters from './Filters';
 import cn from 'classnames';
+import Pin from '../components/Pin';
 
 export default class Map extends React.Component {
     render() {
@@ -26,6 +27,7 @@ export default class Map extends React.Component {
                         </text>
                     </svg>
                 </button>
+                {this.props.offers.map(item => <Pin key={item.id} {...item} isActive={this.props.isActive} />)}
             </div>
 
       
