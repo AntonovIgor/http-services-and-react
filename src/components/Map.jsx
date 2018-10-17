@@ -32,6 +32,9 @@ export default class Map extends React.Component {
                         isActive={this.props.isActive} 
                         onPinClick={this.props.onPinClick} 
                     />)}
+                {this.props.children}
+
+                
             </div>
 
       

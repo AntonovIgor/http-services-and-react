@@ -36,8 +36,10 @@ class App extends Component {
           offers={this.state.offers} 
           onMainPinClick={this.onMainPinClick}
           onPinClick={this.onPinClick}
-        />
-        <Card {...this.state.card} onCloseCard={this.onCloseCard} />
+        >
+          <Card {...this.state.card} onCloseCard={this.onCloseCard} />
+        </Map>
+        
         <NewOffer isActive={this.state.isActive} />
       </div>
     );
