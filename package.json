@@ -11,9 +11,9 @@
     "react-scripts": "2.0.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-env start",
+    "build": "react-app-env build",
+    "test": "react-app-env test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -27,6 +27,7 @@
   ],
   "devDependencies": {
     "http-server": "^0.11.1",
+    "react-app-env": "^1.2.3",
     "rest-client": "^0.1.5"
   }
 }

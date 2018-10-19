@@ -2,15 +2,25 @@ import React, { Component } from 'react';
 import Map from './components/Map';
 import Card from './components/Card';
 import NewOffer from './components/NewOffer';
-import data from './data.js';
+import { loadOffers } from './services/api';
 
 class App extends Component {
   state = {
-    offers: [...data],
+    offers: [],
     isActive: false,
     card: {
       isActiveCard: false
     }
+  }
+
+  /**
+   * После монтирования компонента выполняем
+   * запрос на получение данных.
+   */
+  componentDidMount() {
+    loadOffers()
+      .then(response => this.setState({ offers: [...response.data] }))
+      .catch(err => console.error('Произошла ошибка получения данных с сервера', err));  
   }
 
   /**

@@ -32,7 +32,7 @@ export default class NewOffer extends React.Component {
                     <label className="ad-form__label" htmlFor="type">Тип жилья</label>
                     <select id="type" name="type">
                         <option value="bungalo">Бунгало</option>
-                        <option value="flat" selected>Квартира</option>
+                        <option value="flat" defaultValue>Квартира</option>
                         <option value="house">Дом</option>
                         <option value="palace">Дворец</option>
                     </select>
@@ -44,12 +44,12 @@ export default class NewOffer extends React.Component {
                 <fieldset className="ad-form__element ad-form__element--time">
                     <label className="ad-form__label" htmlFor="timein">Время заезда и выезда</label>
                     <select id="timein" name="timein">
-                        <option value="12:00" selected>После 12</option>
+                        <option value="12:00" defaultValue>После 12</option>
                         <option value="13:00">После 13</option>
                         <option value="14:00">После 14</option>
                     </select>
                     <select id="timeout" name="timeout" title="Time to go out">
-                        <option value="12:00" selected>Выезд до 12</option>
+                        <option value="12:00" defaultValue>Выезд до 12</option>
                         <option value="13:00">Выезд до 13</option>
                         <option value="14:00">Выезд до 14</option>
                     </select>
@@ -57,7 +57,7 @@ export default class NewOffer extends React.Component {
                 <fieldset className="ad-form__element">
                     <label className="ad-form__label" htmlFor="room_number">Кол-во комнат</label>
                     <select id="room_number" name="rooms">
-                        <option value="1" selected>1 комната</option>
+                        <option value="1" defaultValue>1 комната</option>
                         <option value="2">2 комнаты</option>
                         <option value="3">3 комнаты</option>
                         <option value="100">100 комнат</option>
@@ -66,7 +66,7 @@ export default class NewOffer extends React.Component {
                 <fieldset className="ad-form__element">
                     <label className="ad-form__label" htmlFor="capacity">Количество мест</label>
                     <select id="capacity" name="capacity">
-                        <option value="3" selected>для 3 гостей</option>
+                        <option value="3" defaultValue>для 3 гостей</option>
                         <option value="2">для 2 гостей</option>
                         <option value="1">для 1 гостя</option>
                         <option value="0">не для гостей</option>
